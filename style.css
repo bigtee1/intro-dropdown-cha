@@ -31,16 +31,18 @@ nav{
     place-content: space-between;
     min-height: 30vh;
     text-align: center;
+    margin-top: 20px;
 }
 .section .section-container .left-col h1{
     color: hsl(0, 0%, 8%);
-    padding-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     letter-spacing: 1px;
     font-size: 30px;
     font-weight: bold;
 }
 .section .section-container .left-col p{
-    padding: 20px 30px;
+    padding: 25px 30px;
     color: hsl(0, 0%, 41%);
     padding-bottom: 15px;
 }
@@ -50,7 +52,7 @@ nav{
     padding: 15px 25px;
     border-radius: 10px;
     color: hsl(0, 0%, 98%);
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .section .section-container .left-col .CTA a:hover{
     background: hsl(0, 0%, 98%);
@@ -65,7 +67,7 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 15px;
+    padding-top: 50px;
 }
 .section .section-container .left-col .sponsor img{
     width: 15%;
@@ -183,7 +185,7 @@ nav .menu-exit{
         display: flex;
     }
     .nav-bar nav ul li{
-        padding: 0 20px;
+        padding: 0 10px;
     }
     .nav-bar nav .primary-nav .primary-nav__dropdown:hover ul li{
         display: block;
@@ -223,24 +225,24 @@ nav .menu-exit{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 120px;   
-        height: 90vh;
+        padding: 10px 30px;   
+        height: 80vh;
     }
     .section .section-container .left-col{
         text-align: left;
         align-items: flex-start;
         place-content: space-evenly;
-        padding-top: 50px;
+        padding-top: 10px;
         height: 100%;
-        max-width: 50%;   
+        max-width: 80vw;   
     }
     .section .section-container .left-col h1{
         padding-top: 40px;
-        padding-right: 40px; 
+        padding-right: 20px; 
         font-size: 60px;
     }
     .section .section-container .left-col p{
-        padding: 0px 0px;
+        padding: 10px 0px;
         padding-right: 50px; 
     }
     .section .section-container .left-col .sponsor{
